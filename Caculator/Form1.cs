@@ -22,6 +22,7 @@ namespace Caculator
             double soa = Double.Parse(textBox1.Text);
             double sob = Double.Parse(textBox2.Text);
             label4.Text = (soa + sob).ToString();
+            int a = 0;
         }
     }
 }
