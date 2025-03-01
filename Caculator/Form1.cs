@@ -17,5 +17,11 @@ namespace Caculator
             InitializeComponent();
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            double soa = Double.Parse(textBox1.Text);
+            double sob = Double.Parse(textBox2.Text);
+            label4.Text = (soa + sob).ToString();
+        }
     }
 }
